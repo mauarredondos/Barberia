@@ -36,9 +36,7 @@ namespace Barberia
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // menuStrip1
-            // 
+            
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.archivoToolStripMenuItem,
@@ -50,52 +48,38 @@ namespace Barberia
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(899, 28);
             this.menuStrip1.TabIndex = 1;
-            // 
-            // archivoToolStripMenuItem
-            // 
+             
             this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.salirToolStripMenuItem});
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
             this.archivoToolStripMenuItem.Text = "Archivo";
-            // 
-            // salirToolStripMenuItem
-            // 
+            
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(121, 26);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
-            // 
-            // clientesToolStripMenuItem
-            // 
+            
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
             this.clientesToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
             this.clientesToolStripMenuItem.Text = "Clientes";
             this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
-            // 
-            // ventasToolStripMenuItem
-            // 
+            
             this.ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
             this.ventasToolStripMenuItem.Size = new System.Drawing.Size(66, 24);
             this.ventasToolStripMenuItem.Text = "Ventas";
             this.ventasToolStripMenuItem.Click += new System.EventHandler(this.ventasToolStripMenuItem_Click);
-            // 
-            // citasToolStripMenuItem
-            // 
+            
             this.citasToolStripMenuItem.Name = "citasToolStripMenuItem";
             this.citasToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
             this.citasToolStripMenuItem.Text = "Citas";
             this.citasToolStripMenuItem.Click += new System.EventHandler(this.citasToolStripMenuItem_Click);
-            // 
-            // reporteDiaToolStripMenuItem
-            // 
+            
             this.reporteDiaToolStripMenuItem.Name = "reporteDiaToolStripMenuItem";
             this.reporteDiaToolStripMenuItem.Size = new System.Drawing.Size(126, 24);
             this.reporteDiaToolStripMenuItem.Text = "Reporte del día";
             this.reporteDiaToolStripMenuItem.Click += new System.EventHandler(this.reporteDiaToolStripMenuItem_Click);
-            // 
-            // pictureBox1
-            // 
+            
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Location = new System.Drawing.Point(0, 28);
             this.pictureBox1.Name = "pictureBox1";
@@ -105,9 +89,7 @@ namespace Barberia
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Visible = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
-            // 
-            // FormPrincipal
-            // 
+             
             this.ClientSize = new System.Drawing.Size(899, 314);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
